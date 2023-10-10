@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://httpbin.org/anything" method="post">
+        <h1>Sign Up</h1>
+        <div class="info">
+          <input type="text" id="email" name="email" placeholder="Email address" required/>
+
+          <input type="text" id="fname" name="fname" placeholder="First name" required/>
+
+          <input type="text" id="lname" name="lname" placeholder="Last name" required/>
+
+          <input type="text" id="username" name="username" placeholder="Username" required/>
+
+          <input type="password" id="password" name="password" placeholder="Password" required/>
+        </div>
+
+        <div class="buttoncontainer">
+          <label for="news" class="news">
+          <input class="news" type="checkbox" id="news" name="news" value="news"/>
+          I want news sent to my email</label>
+
+          <label for="offers" class="offers"><span class="checkmark"></span>
+          <input type="checkbox" id="offers" name="offers" value="offers" />
+          I want offers sent to my email
+        </label>
+
+          <label for="terms" class="terms">
+          <input type="radio" id="radio" name="terms" value="terms" required />
+          I agree to terms and conditions
+        </label>
+
+            <button class="submitbtn" type="submit">Sign Up</button>
+
+        </div>
+       </div>
+      </form>
+    </div>
+  </body>
+</html>
